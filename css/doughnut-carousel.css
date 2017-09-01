@@ -1,11 +1,11 @@
-div.pie_charts {font-size: 0px;}
-div.pie {display: inline-block; position: relative; width: 25%;}
+div.doughnut_charts {font-size: 0px;}
+div.doughnut {display: inline-block; position: relative; width: 25%;}
 
-.pie_carousel div.pie_charts svg {
+.doughnut_carousel div.doughnut_charts svg {
   margin: 0; background-color: transparent;
   display: block; margin: auto;
 }
-.pie_carousel div.pie_charts circle {
+.doughnut_carousel div.doughnut_charts circle {
   stroke-dasharray: 251.32741228718345;
   /*stroke-dashoffset: 251.32741228718345;*/
   stroke-dashoffset: 0;
@@ -14,8 +14,8 @@ div.pie {display: inline-block; position: relative; width: 25%;}
 /*  animation: dash 1s linear forwards;*/
 } 
 
-.pie_carousel div.pie_charts circle.animate {stroke: #303C9C;}
-.pie_carousel div.pie_charts circle.static {stroke: #F0F0F8;}
+.doughnut_carousel div.doughnut_charts circle.animate {stroke: #303C9C;}
+.doughnut_carousel div.doughnut_charts circle.static {stroke: #F0F0F8;}
 /*@keyframes dash {
   from {
     stroke-dashoffset: 251.32741228718345;
@@ -27,27 +27,27 @@ div.pie {display: inline-block; position: relative; width: 25%;}
 
 
 
-.pie_carousel div.pie_charts div.pie .percent {display: block; width: 100%; position: absolute; left: 0; top: 0; bottom: 0; right: 0;  margin: auto; background-color: transparent; height: 18px; overflow: hidden; font-size: 15px; font-weight: bolder; color: #303C9C; text-align: center;}
-.pie_carousel div.pie_charts div.pie .percent > div {display: inline-block; height: 100%; vertical-align: top; position: relative; width: 8px; }
-.pie_carousel div.pie_charts div.pie .percent > div > .positioner {display: block; width: 100%; position: absolute; top: 0; left: 0;}
-.pie_carousel div.pie_charts div.pie .percent > div > .positioner > span {display: block; height: 20px; text-align: left;}
+.doughnut_carousel div.doughnut_charts div.doughnut .percent {display: block; width: 100%; position: absolute; left: 0; top: 0; bottom: 0; right: 0;  margin: auto; background-color: transparent; height: 18px; overflow: hidden; font-size: 15px; font-weight: bolder; color: #303C9C; text-align: center;}
+.doughnut_carousel div.doughnut_charts div.doughnut .percent > div {display: inline-block; height: 100%; vertical-align: top; position: relative; width: 8px; }
+.doughnut_carousel div.doughnut_charts div.doughnut .percent > div > .positioner {display: block; width: 100%; position: absolute; top: 0; left: 0;}
+.doughnut_carousel div.doughnut_charts div.doughnut .percent > div > .positioner > span {display: block; height: 20px; text-align: left;}
 
 
-.pie_carousel {display: block; width: 700px; margin: auto; position: relative; margin-top: 40px;}
-.pie_carousel * {
+.doughnut_carousel {display: block; width: 700px; margin: auto; position: relative; margin-top: 40px;}
+.doughnut_carousel * {
 	transition: all 300ms ease;
 }
 
-.pie_carousel .pie_stage_outer {position: relative; overflow: hidden; margin-top: 20px;}
-.pie_carousel .pie_text_stage {display: block; font-size: 0; transform: translateX(0);  }
-.pie_carousel .pie_text {display: inline-block; vertical-align: top; width: calc(100% / 4); text-align: center; font-size: 14px;}
+.doughnut_carousel .doughnut_stage_outer {position: relative; overflow: hidden; margin-top: 20px;}
+.doughnut_carousel .doughnut_text_stage {display: block; font-size: 0; transform: translateX(0);  }
+.doughnut_carousel .doughnut_text {display: inline-block; vertical-align: top; width: calc(100% / 4); text-align: center; font-size: 14px;}
 
-.pie_carousel .nav {display: block; position: absolute; width: 100%; height: 100%; left: 0; bottom: 0;}
-.pie_carousel .nav .btns button {display: block; width: 30px; height: 100%; position: absolute; bottom: 0; border: 0; outline: 0; cursor: pointer; background-size: 50%; background-repeat: no-repeat; background-position: center 30%;; background-color: transparent;}
-.pie_carousel .nav .btns button.prev {left: -30px; background-image: url('../img/arrow-left.svg');}
-.pie_carousel .nav .btns button.prev:active {background-image: url('../img/arrow-left-active.svg');}
-.pie_carousel .nav .btns button.next {right: -30px; background-image: url('../img/arrow-right.svg');}
-.pie_carousel .nav .btns button.next:active {background-image: url('../img/arrow-right-active.svg');}
+.doughnut_carousel .nav {display: block; position: absolute; width: 100%; height: 100%; left: 0; bottom: 0;}
+.doughnut_carousel .nav .btns button {display: block; width: 30px; height: 100%; position: absolute; bottom: 0; border: 0; outline: 0; cursor: pointer; background-size: 50%; background-repeat: no-repeat; background-position: center 30%;; background-color: transparent;}
+.doughnut_carousel .nav .btns button.prev {left: -30px; background-image: url('../img/arrow-left.svg');}
+.doughnut_carousel .nav .btns button.prev:active {background-image: url('../img/arrow-left-active.svg');}
+.doughnut_carousel .nav .btns button.next {right: -30px; background-image: url('../img/arrow-right.svg');}
+.doughnut_carousel .nav .btns button.next:active {background-image: url('../img/arrow-right-active.svg');}
 
 
 
